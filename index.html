@@ -1,0 +1,25 @@
+﻿<html>
+
+<head>
+<meta charset="utf-8">
+<title>Vector Font Rendering</title>
+
+</head>
+
+<body>
+    
+<canvas id="canvas" width="1024" height="768"></canvas>
+<p>Text: <input id="eText" type="text" value="Hello, World!"/></p>
+<p>Triangles <input id="eTriangles" type="checkbox" checked/></p>
+<p>Curves <input id="eCurves" type="checkbox" checked/></p>
+<p>Multisampling <input id="eMultisampling" type="checkbox" checked/></p>
+<p>Subpixel antialiasing <input id="eSubpixelSampling" type="checkbox" checked/></p>
+<p>Show offscreen texture <input id="eShowOffscreenTex" type="checkbox"/></p>
+
+<script type="text/javascript" src="vendor/opentype.min.js"></script>
+<script type="text/javascript" src="util.js"></script>
+<script type="text/javascript" src="demo.js" onload="gDemo = new Demo(); gDemo.MainLoop();"></script>
+
+</body>
+
+</html>
